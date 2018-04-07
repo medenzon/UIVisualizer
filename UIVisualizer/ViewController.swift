@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override var shouldAutorotate: Bool { return false }
+    override var prefersStatusBarHidden: Bool { return true }
 }
 

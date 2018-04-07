@@ -12,6 +12,8 @@
 		AD88849920793A7800C29205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD88849720793A7800C29205 /* Main.storyboard */; };
 		AD88849B20793A7C00C29205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD88849A20793A7C00C29205 /* Assets.xcassets */; };
 		AD88849E20793A7C00C29205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD88849C20793A7C00C29205 /* LaunchScreen.storyboard */; };
+		AD8884A620793AF000C29205 /* Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8884A520793AF000C29205 /* Impact.swift */; };
+		AD8884A820793AF700C29205 /* InteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8884A720793AF700C29205 /* InteractiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AD88849A20793A7C00C29205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD88849D20793A7C00C29205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD88849F20793A7C00C29205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8884A520793AF000C29205 /* Impact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Impact.swift; sourceTree = "<group>"; };
+		AD8884A720793AF700C29205 /* InteractiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				AD88849320793A7800C29205 /* AppDelegate.swift */,
 				AD88849520793A7800C29205 /* ViewController.swift */,
+				AD8884A720793AF700C29205 /* InteractiveView.swift */,
+				AD8884A520793AF000C29205 /* Impact.swift */,
 				AD88849720793A7800C29205 /* Main.storyboard */,
 				AD88849A20793A7C00C29205 /* Assets.xcassets */,
 				AD88849C20793A7C00C29205 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8884A620793AF000C29205 /* Impact.swift in Sources */,
+				AD8884A820793AF700C29205 /* InteractiveView.swift in Sources */,
 				AD88849620793A7800C29205 /* ViewController.swift in Sources */,
 				AD88849420793A7800C29205 /* AppDelegate.swift in Sources */,
 			);
